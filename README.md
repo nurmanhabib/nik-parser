@@ -13,7 +13,7 @@ This process only relies on information from the ID code, there is no need to co
 Use the package manager [composer](https://getcomposer.org) to install nik-parser.
 
 ```bash
-composer install nurmanhabib/nik-parser
+composer require nurmanhabib/nik-parser
 ```
 
 ## Usage
