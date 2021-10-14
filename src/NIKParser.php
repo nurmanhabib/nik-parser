@@ -76,7 +76,7 @@ class NIKParser
     /**
      * @return string
      */
-    public function getNik(): string
+    public function getNIK(): string
     {
         return $this->nik;
     }
@@ -86,6 +86,6 @@ class NIKParser
      */
     public function __toString()
     {
-        return $this->getNik();
+        return $this->getNIK();
     }
 }
