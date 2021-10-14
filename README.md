@@ -26,7 +26,7 @@ require "vendor/autoload.php";
 use Nurmanhabib\NIKParser\NIKParser;
 
 $nik = "1050245708900001";
-$parser = new NIKParser($value);
+$parser = new NIKParser($nik);
 
 echo $parser->getDateOfBirth()->toDateString(); // Output: 1990-08-17
 echo $parser->getSex(); // Output: female
